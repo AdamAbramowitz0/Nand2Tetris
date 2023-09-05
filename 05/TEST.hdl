@@ -1,0 +1,14 @@
+CHIP TEST{
+	
+	IN in[15],;
+    OUT out[16];
+
+    PARTS:
+   
+
+
+    Add16(a[15]=true,a[14]=true,a[0..13]=false,b[15]=false,b[0..14]=in,out=out);
+
+
+
+}
