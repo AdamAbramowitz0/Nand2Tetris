@@ -1,0 +1,25 @@
+class Main{
+
+    function void Main(){
+        var boolean test;
+        var int x;
+        var int y; 
+        let test = true;
+        while(test){
+            
+            let x = keyboard.readLine("X");
+            let y = keyboard.readLine("Y");
+            do Screen.drawPixel(x,y);
+
+
+
+        }
+
+        return;
+    }
+
+
+
+
+
+}

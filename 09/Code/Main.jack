@@ -1,0 +1,46 @@
+class Main{
+
+    function void main(){
+        var char key, key2,key3;
+
+
+   /**hi*/     while(true){
+ /*hi*/            let key=0;
+            let key3=1;
+            
+                while((key=0)){
+                    let key = Keyboard.keyPressed();
+                }
+                while(~(key3=0)){
+                    let key3 = Keyboard.keyPressed();
+                }
+                let key2=0;
+                while((key2=0)){
+                    let key2 = Keyboard.keyPressed();
+                }
+                let key3=1;
+                while(~(key3=0)){
+                    let key3 = Keyboard.keyPressed();
+                }
+            do Screen.setColor(true);
+            do Screen.drawPixel(key,key2);
+            do Screen.drawPixel(key,key2+1);
+            do Screen.drawPixel(key,key2+2);
+            do Screen.drawPixel(key,key2);
+            do Screen.drawPixel(key+1,key2+1);
+            do Screen.drawPixel(key+2,key2+2);
+            do Screen.drawPixel(key,key2);
+            do Screen.drawPixel(key+1,key2);
+            do Screen.drawPixel(key+2,key2);
+       
+            
+        
+    }
+    return;
+    }
+
+
+
+
+
+}
