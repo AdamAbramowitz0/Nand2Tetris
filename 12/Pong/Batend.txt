@@ -1,0 +1,449 @@
+<class> 
+<keyword> class </keyword> 
+<identifier>Bat</identifier> 
+<Eleven> Name: Bat Catagory: class Index: 0 Usage: Declared </Eleven> 
+<symbol>{</symbol> 
+<classVarDec> 
+<keyword>field</keyword>
+<keyword>int</keyword>
+<identifier>x</identifier>
+<Eleven> Name: x Catagory: field Index: 0 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<identifier>y</identifier>
+<Eleven> Name: y Catagory: field Index: 1 Usage: Declared </Eleven> 
+<symbol>;</symbol>
+</classVarDec>
+<classVarDec> 
+<keyword>field</keyword>
+<keyword>int</keyword>
+<identifier>width</identifier>
+<Eleven> Name: width Catagory: field Index: 2 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<identifier>height</identifier>
+<Eleven> Name: height Catagory: field Index: 3 Usage: Declared </Eleven> 
+<symbol>;</symbol>
+</classVarDec>
+<classVarDec> 
+<keyword>field</keyword>
+<keyword>int</keyword>
+<identifier>direction</identifier>
+<Eleven> Name: direction Catagory: field Index: 4 Usage: Declared </Eleven> 
+<symbol>;</symbol>
+</classVarDec>
+<subroutineDec> 
+<keyword>constructor</keyword>
+<identifier>Bat</identifier>
+<Eleven> Name: Bat Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>new</identifier>
+<Eleven> Name: new Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+<keyword>int</keyword>
+<identifier>Ax</identifier>
+<Eleven> Name: Ax Catagory: argument Index: 0 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<keyword>int</keyword>
+<identifier>Ay</identifier>
+<Eleven> Name: Ay Catagory: argument Index: 1 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<keyword>int</keyword>
+<identifier>Awidth</identifier>
+<Eleven> Name: Awidth Catagory: argument Index: 2 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<keyword>int</keyword>
+<identifier>Aheight</identifier>
+<Eleven> Name: Aheight Catagory: argument Index: 3 Usage: Declared </Eleven> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>y</identifier> 
+<Eleven> Name: y Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>width</identifier> 
+<Eleven> Name: width Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>height</identifier> 
+<Eleven> Name: height Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>direction</identifier> 
+<Eleven> Name: direction Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<expression> 
+<term> 
+<keyword>this</keyword> 
+</term>
+</expression> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>dispose</identifier>
+<Eleven> Name: dispose Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>show</identifier>
+<Eleven> Name: show Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<doStatement> 
+ <keyword>do</keyword> 
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>hide</identifier>
+<Eleven> Name: hide Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<doStatement> 
+ <keyword>do</keyword> 
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>draw</identifier>
+<Eleven> Name: draw Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>setDirection</identifier>
+<Eleven> Name: setDirection Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+<keyword>int</keyword>
+<identifier>Adirection</identifier>
+<Eleven> Name: Adirection Catagory: argument Index: 1 Usage: Declared </Eleven> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>direction</identifier> 
+<Eleven> Name: direction Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>int</keyword>
+<Eleven> Name: int Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>getLeft</identifier>
+<Eleven> Name: getLeft Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<returnStatement> 
+ <keyword>return</keyword> 
+<expression> 
+<term> 
+<Eleven> Name: x Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>x</identifier> 
+</term>
+</expression> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>int</keyword>
+<Eleven> Name: int Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>getRight</identifier>
+<Eleven> Name: getRight Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<returnStatement> 
+ <keyword>return</keyword> 
+<expression> 
+<term> 
+<Eleven> Name: x Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>x</identifier> 
+</term>
+<symbol>+</symbol> 
+<term> 
+<Eleven> Name: width Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>width</identifier> 
+</term>
+</expression> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>setWidth</identifier>
+<Eleven> Name: setWidth Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+<keyword>int</keyword>
+<identifier>Awidth</identifier>
+<Eleven> Name: Awidth Catagory: argument Index: 1 Usage: Declared </Eleven> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<doStatement> 
+ <keyword>do</keyword> 
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>width</identifier> 
+<Eleven> Name: width Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>move</identifier>
+<Eleven> Name: move Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: direction Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>direction</identifier> 
+</term>
+<symbol>=</symbol> 
+<term> 
+<integerConstant>1</integerConstant> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: x Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>x</identifier> 
+</term>
+<symbol>&lt;</symbol> 
+<term> 
+<integerConstant>0</integerConstant> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+</ifStatement> 
+<doStatement> 
+ <keyword>do</keyword> 
+<doStatement> 
+ <keyword>do</keyword> 
+<doStatement> 
+ <keyword>do</keyword> 
+<doStatement> 
+ <keyword>do</keyword> 
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: x Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>x</identifier> 
+</term>
+<symbol>+</symbol> 
+<term> 
+<Eleven> Name: width Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>width</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+<symbol>&gt;</symbol> 
+<term> 
+<integerConstant>511</integerConstant> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+</ifStatement> 
+<doStatement> 
+ <keyword>do</keyword> 
+<doStatement> 
+ <keyword>do</keyword> 
+<doStatement> 
+ <keyword>do</keyword> 
+<doStatement> 
+ <keyword>do</keyword> 
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<symbol>}</symbol> 
+</class> 

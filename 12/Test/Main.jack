@@ -1,0 +1,11 @@
+class Main {
+    function void main() {
+	
+        var int x,y,z;
+        let x = 10110;
+        let y = 10010;
+        let z = x + y;
+        
+        return;
+    }
+}

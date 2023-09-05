@@ -1,0 +1,1164 @@
+<class> 
+<keyword> class </keyword> 
+<identifier>Ball</identifier> 
+<Eleven> Name: Ball Catagory: class Index: 0 Usage: Declared </Eleven> 
+<symbol>{</symbol> 
+<classVarDec> 
+<keyword>field</keyword>
+<keyword>int</keyword>
+<identifier>x</identifier>
+<Eleven> Name: x Catagory: field Index: 0 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<identifier>y</identifier>
+<Eleven> Name: y Catagory: field Index: 1 Usage: Declared </Eleven> 
+<symbol>;</symbol>
+</classVarDec>
+<classVarDec> 
+<keyword>field</keyword>
+<keyword>int</keyword>
+<identifier>lengthx</identifier>
+<Eleven> Name: lengthx Catagory: field Index: 2 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<identifier>lengthy</identifier>
+<Eleven> Name: lengthy Catagory: field Index: 3 Usage: Declared </Eleven> 
+<symbol>;</symbol>
+</classVarDec>
+<classVarDec> 
+<keyword>field</keyword>
+<keyword>int</keyword>
+<identifier>d</identifier>
+<Eleven> Name: d Catagory: field Index: 4 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<identifier>straightD</identifier>
+<Eleven> Name: straightD Catagory: field Index: 5 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<identifier>diagonalD</identifier>
+<Eleven> Name: diagonalD Catagory: field Index: 6 Usage: Declared </Eleven> 
+<symbol>;</symbol>
+</classVarDec>
+<classVarDec> 
+<keyword>field</keyword>
+<keyword>boolean</keyword>
+<identifier>invert</identifier>
+<Eleven> Name: invert Catagory: field Index: 7 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<identifier>positivex</identifier>
+<Eleven> Name: positivex Catagory: field Index: 8 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<identifier>positivey</identifier>
+<Eleven> Name: positivey Catagory: field Index: 9 Usage: Declared </Eleven> 
+<symbol>;</symbol>
+</classVarDec>
+<classVarDec> 
+<keyword>field</keyword>
+<keyword>int</keyword>
+<identifier>leftWall</identifier>
+<Eleven> Name: leftWall Catagory: field Index: 10 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<identifier>rightWall</identifier>
+<Eleven> Name: rightWall Catagory: field Index: 11 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<identifier>topWall</identifier>
+<Eleven> Name: topWall Catagory: field Index: 12 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<identifier>bottomWall</identifier>
+<Eleven> Name: bottomWall Catagory: field Index: 13 Usage: Declared </Eleven> 
+<symbol>;</symbol>
+</classVarDec>
+<classVarDec> 
+<keyword>field</keyword>
+<keyword>int</keyword>
+<identifier>wall</identifier>
+<Eleven> Name: wall Catagory: field Index: 14 Usage: Declared </Eleven> 
+<symbol>;</symbol>
+</classVarDec>
+<subroutineDec> 
+<keyword>constructor</keyword>
+<identifier>Ball</identifier>
+<Eleven> Name: Ball Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>new</identifier>
+<Eleven> Name: new Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+<keyword>int</keyword>
+<identifier>Ax</identifier>
+<Eleven> Name: Ax Catagory: argument Index: 0 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<keyword>int</keyword>
+<identifier>Ay</identifier>
+<Eleven> Name: Ay Catagory: argument Index: 1 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<keyword>int</keyword>
+<identifier>AleftWall</identifier>
+<Eleven> Name: AleftWall Catagory: argument Index: 2 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<keyword>int</keyword>
+<identifier>ArightWall</identifier>
+<Eleven> Name: ArightWall Catagory: argument Index: 3 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<keyword>int</keyword>
+<identifier>AtopWall</identifier>
+<Eleven> Name: AtopWall Catagory: argument Index: 4 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<keyword>int</keyword>
+<identifier>AbottomWall</identifier>
+<Eleven> Name: AbottomWall Catagory: argument Index: 5 Usage: Declared </Eleven> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>y</identifier> 
+<Eleven> Name: y Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>leftWall</identifier> 
+<Eleven> Name: leftWall Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>rightWall</identifier> 
+<Eleven> Name: rightWall Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>topWall</identifier> 
+<Eleven> Name: topWall Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>bottomWall</identifier> 
+<Eleven> Name: bottomWall Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>wall</identifier> 
+<Eleven> Name: wall Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<expression> 
+<term> 
+<keyword>this</keyword> 
+</term>
+</expression> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>dispose</identifier>
+<Eleven> Name: dispose Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>show</identifier>
+<Eleven> Name: show Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<doStatement> 
+ <keyword>do</keyword> 
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>hide</identifier>
+<Eleven> Name: hide Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<doStatement> 
+ <keyword>do</keyword> 
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>draw</identifier>
+<Eleven> Name: draw Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>int</keyword>
+<Eleven> Name: int Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>getLeft</identifier>
+<Eleven> Name: getLeft Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<returnStatement> 
+ <keyword>return</keyword> 
+<expression> 
+<term> 
+<Eleven> Name: x Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>x</identifier> 
+</term>
+</expression> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>int</keyword>
+<Eleven> Name: int Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>getRight</identifier>
+<Eleven> Name: getRight Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<returnStatement> 
+ <keyword>return</keyword> 
+<expression> 
+<term> 
+<Eleven> Name: x Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>x</identifier> 
+</term>
+<symbol>+</symbol> 
+<term> 
+<integerConstant>5</integerConstant> 
+</term>
+</expression> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>setDestination</identifier>
+<Eleven> Name: setDestination Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+<keyword>int</keyword>
+<identifier>destx</identifier>
+<Eleven> Name: destx Catagory: argument Index: 1 Usage: Declared </Eleven> 
+<symbol>,</symbol>
+<keyword>int</keyword>
+<identifier>desty</identifier>
+<Eleven> Name: desty Catagory: argument Index: 2 Usage: Declared </Eleven> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<varDec> 
+<keyword>var</keyword> 
+<keyword>int</keyword> 
+<identifier>dx</identifier> 
+<Eleven> Name: dx Catagory: var Index: 0 Usage: Declared </Eleven> 
+<symbol>,</symbol> 
+<identifier>dy</identifier> 
+<Eleven> Name: dy Catagory: var Index: 1 Usage: Declared </Eleven> 
+<symbol>,</symbol> 
+<identifier>temp</identifier> 
+<Eleven> Name: temp Catagory: var Index: 2 Usage: Declared </Eleven> 
+<symbol>;</symbol> 
+</varDec> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>lengthx</identifier> 
+<Eleven> Name: lengthx Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>lengthy</identifier> 
+<Eleven> Name: lengthy Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>dx</identifier> 
+<Eleven> Name: dx Catagory: var Index: 0 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>dy</identifier> 
+<Eleven> Name: dy Catagory: var Index: 1 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>invert</identifier> 
+<Eleven> Name: invert Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: invert Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>invert</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>temp</identifier> 
+<Eleven> Name: temp Catagory: var Index: 2 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>dx</identifier> 
+<Eleven> Name: dx Catagory: var Index: 0 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>dy</identifier> 
+<Eleven> Name: dy Catagory: var Index: 1 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>positivex</identifier> 
+<Eleven> Name: positivex Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>positivey</identifier> 
+<Eleven> Name: positivey Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>positivex</identifier> 
+<Eleven> Name: positivex Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>positivey</identifier> 
+<Eleven> Name: positivey Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>d</identifier> 
+<Eleven> Name: d Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>straightD</identifier> 
+<Eleven> Name: straightD Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>diagonalD</identifier> 
+<Eleven> Name: diagonalD Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>int</keyword>
+<Eleven> Name: int Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>move</identifier>
+<Eleven> Name: move Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<doStatement> 
+ <keyword>do</keyword> 
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: d Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>d</identifier> 
+</term>
+<symbol>&lt;</symbol> 
+<term> 
+<integerConstant>0</integerConstant> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>d</identifier> 
+<Eleven> Name: d Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>d</identifier> 
+<Eleven> Name: d Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: positivey Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>positivey</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: invert Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>invert</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>y</identifier> 
+<Eleven> Name: y Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: invert Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>invert</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>y</identifier> 
+<Eleven> Name: y Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: positivex Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>positivex</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: invert Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>invert</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>y</identifier> 
+<Eleven> Name: y Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: invert Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>invert</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>y</identifier> 
+<Eleven> Name: y Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<symbol>~</symbol> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: x Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>x</identifier> 
+</term>
+<symbol>&gt;</symbol> 
+<term> 
+<Eleven> Name: leftWall Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>leftWall</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>wall</identifier> 
+<Eleven> Name: wall Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+</ifStatement> 
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<symbol>~</symbol> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: x Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>x</identifier> 
+</term>
+<symbol>&lt;</symbol> 
+<term> 
+<Eleven> Name: rightWall Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>rightWall</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>wall</identifier> 
+<Eleven> Name: wall Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>x</identifier> 
+<Eleven> Name: x Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+</ifStatement> 
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<symbol>~</symbol> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: y Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>y</identifier> 
+</term>
+<symbol>&gt;</symbol> 
+<term> 
+<Eleven> Name: topWall Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>topWall</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>wall</identifier> 
+<Eleven> Name: wall Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>y</identifier> 
+<Eleven> Name: y Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+</ifStatement> 
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<symbol>~</symbol> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: y Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>y</identifier> 
+</term>
+<symbol>&lt;</symbol> 
+<term> 
+<Eleven> Name: bottomWall Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>bottomWall</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>wall</identifier> 
+<Eleven> Name: wall Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>y</identifier> 
+<Eleven> Name: y Catagory:  Index: YO Usage: declared TYPE AGH:NONE</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+</ifStatement> 
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<expression> 
+<term> 
+<Eleven> Name: wall Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>wall</identifier> 
+</term>
+</expression> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<subroutineDec> 
+<keyword>method</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>bounce</identifier>
+<Eleven> Name: bounce Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+<keyword>int</keyword>
+<identifier>bouncingDirection</identifier>
+<Eleven> Name: bouncingDirection Catagory: argument Index: 1 Usage: Declared </Eleven> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<varDec> 
+<keyword>var</keyword> 
+<keyword>int</keyword> 
+<identifier>newx</identifier> 
+<Eleven> Name: newx Catagory: var Index: 0 Usage: Declared </Eleven> 
+<symbol>,</symbol> 
+<identifier>newy</identifier> 
+<Eleven> Name: newy Catagory: var Index: 1 Usage: Declared </Eleven> 
+<symbol>,</symbol> 
+<identifier>divLengthx</identifier> 
+<Eleven> Name: divLengthx Catagory: var Index: 2 Usage: Declared </Eleven> 
+<symbol>,</symbol> 
+<identifier>divLengthy</identifier> 
+<Eleven> Name: divLengthy Catagory: var Index: 3 Usage: Declared </Eleven> 
+<symbol>,</symbol> 
+<identifier>factor</identifier> 
+<Eleven> Name: factor Catagory: var Index: 4 Usage: Declared </Eleven> 
+<symbol>;</symbol> 
+</varDec> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>divLengthx</identifier> 
+<Eleven> Name: divLengthx Catagory: var Index: 2 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>divLengthy</identifier> 
+<Eleven> Name: divLengthy Catagory: var Index: 3 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: bouncingDirection Catagory: argument Index: 1 Usage: used </Eleven> 
+<identifier>bouncingDirection</identifier> 
+</term>
+<symbol>=</symbol> 
+<term> 
+<integerConstant>0</integerConstant> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>factor</identifier> 
+<Eleven> Name: factor Catagory: var Index: 4 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<symbol>~</symbol> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: lengthx Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>lengthx</identifier> 
+</term>
+<symbol>&lt;</symbol> 
+<term> 
+<integerConstant>0</integerConstant> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+<symbol>&amp;</symbol> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: bouncingDirection Catagory: argument Index: 1 Usage: used </Eleven> 
+<identifier>bouncingDirection</identifier> 
+</term>
+<symbol>=</symbol> 
+<term> 
+<integerConstant>1</integerConstant> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+<symbol>|</symbol> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: lengthx Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>lengthx</identifier> 
+</term>
+<symbol>&lt;</symbol> 
+<term> 
+<integerConstant>0</integerConstant> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+<symbol>&amp;</symbol> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: bouncingDirection Catagory: argument Index: 1 Usage: used </Eleven> 
+<identifier>bouncingDirection</identifier> 
+</term>
+<symbol>=</symbol> 
+<term> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<symbol>-</symbol> 
+<term> 
+<integerConstant>1</integerConstant> 
+</term>
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>factor</identifier> 
+<Eleven> Name: factor Catagory: var Index: 4 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>factor</identifier> 
+<Eleven> Name: factor Catagory: var Index: 4 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: wall Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>wall</identifier> 
+</term>
+<symbol>=</symbol> 
+<term> 
+<integerConstant>1</integerConstant> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newx</identifier> 
+<Eleven> Name: newx Catagory: var Index: 0 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newy</identifier> 
+<Eleven> Name: newy Catagory: var Index: 1 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newy</identifier> 
+<Eleven> Name: newy Catagory: var Index: 1 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: wall Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>wall</identifier> 
+</term>
+<symbol>=</symbol> 
+<term> 
+<integerConstant>2</integerConstant> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newx</identifier> 
+<Eleven> Name: newx Catagory: var Index: 0 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newy</identifier> 
+<Eleven> Name: newy Catagory: var Index: 1 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newy</identifier> 
+<Eleven> Name: newy Catagory: var Index: 1 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<ifStatement> 
+ <keyword>if</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: wall Catagory:  Index: YO Usage: used </Eleven> 
+<identifier>wall</identifier> 
+</term>
+<symbol>=</symbol> 
+<term> 
+<integerConstant>3</integerConstant> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newy</identifier> 
+<Eleven> Name: newy Catagory: var Index: 1 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newx</identifier> 
+<Eleven> Name: newx Catagory: var Index: 0 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newx</identifier> 
+<Eleven> Name: newx Catagory: var Index: 0 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+<keyword>else</keyword> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newy</identifier> 
+<Eleven> Name: newy Catagory: var Index: 1 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newx</identifier> 
+<Eleven> Name: newx Catagory: var Index: 0 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>newx</identifier> 
+<Eleven> Name: newx Catagory: var Index: 0 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+</statements>
+<symbol>}</symbol> 
+ </ifStatement> 
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<symbol>}</symbol> 
+</class> 

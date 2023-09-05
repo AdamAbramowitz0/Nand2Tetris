@@ -1,0 +1,119 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/12/Memory.jack
+
+/**
+ * This library provides two services: direct access to the computer's main
+ * memory (RAM), and allocation and recycling of memory blocks. The Hack RAM
+ * consists of 32,768 words, each holding a 16-bit binary number.
+ */ 
+class Memory {
+	static Array memory;
+	static int base;
+	static int space;
+	static int next;
+    /** Initializes the class. */
+    function void init() {
+	let base = 2048;
+	let space =16383-2048;
+	let next = 2048;
+	
+	
+	return;
+    }
+
+    /** Returns the RAM value at the given address. */
+    function int peek(int address) {
+	return memory[address];
+
+    }
+
+    /** Sets the RAM value at the given address to the given value. */
+    function void poke(int address, int value) {
+	let memory[address] = value;
+	return;
+    }
+
+    /** Finds an available RAM block of the given size and returns
+     *  a reference to its base address. */
+    function int alloc(int size) {
+	var boolean continue;
+	var int scanner;
+	var int spot;
+	var int priorSpot;
+	var int overRun;
+	var boolean moreBlocks;
+	let scanner = base;
+	let continue = true;
+	if(space = (16383-2048)){
+		let memory[scanner] = space-size-2;
+		let memory[scanner+1]=0;
+		let spot = 16383 - size - 2; // ?? scanner + memory[scanner]-(size+2);
+		let space = space-size-2;
+		return spot;
+	}
+	//defragment
+	//let moreBlocks = true;
+	//while(true){
+		//let overRun = scanner + 1 + memory[scanner];
+		//let scanner = memory[scanner+1]
+		//while(~(memory[scanner+1] = 0)){
+			//if(scanner = overRun){
+				
+			//}
+		
+
+
+
+		//}
+		//if(~(memory[scanner] = 0)){
+			//let scanner = memory[scanner+1];
+		//}
+	
+	//}
+	while(continue){
+
+		if(((memory[scanner] - 2) > size) | ((memory[scanner] - 2) = size)){
+			let continue = false;
+			let space = space-size-2; //currently unused??
+			let spot = memory[scanner]+scanner -(size+2);
+			let memory[scanner] = memory[scanner] - size-2;
+			if(memory[scanner]-2=0){
+				if(base = scanner){
+					let base = scanner;
+				}
+				else{
+					let memory[priorSpot+1] = scanner;
+				}
+			}
+			let memory[spot]=size+2;
+			return spot;//lengths are not being added properly
+			
+		}
+		else{
+			if(memory[scanner+1]=0){
+				//do Sys.error();
+			}
+			let priorSpot = scanner;
+			let scanner = memory[scanner+1];
+		}
+	
+	
+
+    }
+	return -1;
+}
+
+    /** De-allocates the given object (cast as an array) by making
+     *  it available for future allocations. */
+    function void deAlloc(Array o) {
+	//why would I increment space?
+	let memory[next+1] = o;
+	let next = o;
+	let memory[o+1] = 0;//might be an issue with the 0
+	return;
+
+		
+    }    
+}

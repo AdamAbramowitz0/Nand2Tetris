@@ -1,0 +1,11 @@
+function Main.main 3
+push constant 10110
+pop local 0
+push constant 10010
+pop local 1
+push local 0
+push local 1
+add
+pop local 2
+push constant 0
+return
