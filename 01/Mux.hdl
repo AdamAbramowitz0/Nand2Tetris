@@ -1,0 +1,61 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/Mux.hdl
+
+/** 
+ * Multiplexor:
+ * out = a if sel == 0
+ *       b otherwise
+ */
+
+CHIP Mux {
+    IN a, b, sel;
+    OUT out;
+
+    PARTS:
+   //I had to look up answer, go back in future 
+   //if you want and redo a different way
+    Not(in = sel, out = nsel);
+    And(a=a,b=nsel,out=c);
+    And(a=b,b=sel,out=d);
+    Or(a=c,b=d,out=out);
+    
+}
+
+
+/** 
+
+*11 _> 0
+*00 > 0
+*10 >1
+
+*|   a   |   b   ||xor(bsel)||xor(asel)|sel  ||xor2xas|  out  |
+*|   0   |   0   ||  0    ||    0    |   0   ||   0   |   0   |
+*|   0   |   1   ||  1    ||    0    |   0   ||   0   |   0   |
+*|   1   |   0   ||  0    ||    1    |   0   ||   1   |   1   |
+*|   1   |   1   ||  1    ||    1    |   0   ||   1   |   1   |
+*
+*|   a   |   b   ||xor(bsel)||xor(asel)|  sel  |  out  |
+*|   0   |   0   ||  1    ||    1    |   1   |   0   |
+*|   0   |   1   ||  0    ||    1    |   1   |   1   |
+*|   1   |   0   ||  1    ||    0    |   1   |   0   |
+*|   1   |   1   ||  0    ||    0    |   1   |   1   |
+*
+*
+*
+*xor(ab)
+*
+*flip a if sel ==1
+*
+*a sel out
+*0 1   1
+*0 0   0
+*1 1   0
+*1 0   1
+*
+*|   0   |   0   |   1   |   0   |
+*|   0   |   1   |   1   |   1   |
+*|   1   |   0   |   1   |   0   |
+*|   1   |   1   |   1   |   1   |
+ */
