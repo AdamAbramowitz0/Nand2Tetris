@@ -1,0 +1,105 @@
+<class> 
+<keyword> class </keyword> 
+<identifier>Main</identifier> 
+<Eleven> Name: Main Catagory: class Index: 0 Usage: Declared </Eleven> 
+<symbol>{</symbol> 
+<subroutineDec> 
+<keyword>function</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>main</identifier>
+<Eleven> Name: main Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<varDec> 
+<keyword>var</keyword> 
+<identifier>Array</identifier> 
+<identifier>a</identifier> 
+<Eleven> Name: a Catagory: var Index: 0 Usage: Declared </Eleven> 
+<symbol>;</symbol> 
+</varDec> 
+<varDec> 
+<keyword>var</keyword> 
+<keyword>int</keyword> 
+<identifier>length</identifier> 
+<Eleven> Name: length Catagory: var Index: 1 Usage: Declared </Eleven> 
+<symbol>;</symbol> 
+</varDec> 
+<varDec> 
+<keyword>var</keyword> 
+<keyword>int</keyword> 
+<identifier>i</identifier> 
+<Eleven> Name: i Catagory: var Index: 2 Usage: Declared </Eleven> 
+<symbol>,</symbol> 
+<identifier>sum</identifier> 
+<Eleven> Name: sum Catagory: var Index: 3 Usage: Declared </Eleven> 
+<symbol>;</symbol> 
+</varDec> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>length</identifier> 
+<Eleven> Name: length Catagory: var Index: 1 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>a</identifier> 
+<Eleven> Name: a Catagory: var Index: 0 Usage: declared TYPE AGH:Array</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>i</identifier> 
+<Eleven> Name: i Catagory: var Index: 2 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<whileStatement> 
+ <keyword>while</keyword> 
+<symbol>(</symbol> 
+<expression> 
+<term> 
+<Eleven> Name: i Catagory: var Index: 2 Usage: used </Eleven> 
+<identifier>i</identifier> 
+</term>
+<symbol>&lt;</symbol> 
+<term> 
+<Eleven> Name: length Catagory: var Index: 1 Usage: used </Eleven> 
+<identifier>length</identifier> 
+</term>
+</expression> 
+<symbol>)</symbol> 
+<symbol>{</symbol> 
+<statements>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>a</identifier> 
+<Eleven> Name: a Catagory: var Index: 0 Usage: declared TYPE AGH:Array</Eleven> 
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>sum</identifier> 
+<Eleven> Name: sum Catagory: var Index: 3 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+<letStatement> 
+ <keyword>let</keyword> 
+<identifier>i</identifier> 
+<Eleven> Name: i Catagory: var Index: 2 Usage: declared TYPE AGH:int</Eleven> 
+<symbol>=</symbol>
+</statements>
+<symbol>}</symbol> 
+ </whileStatement>
+<doStatement> 
+ <keyword>do</keyword> 
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<symbol>}</symbol> 
+</class> 

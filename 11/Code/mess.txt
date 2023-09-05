@@ -1,0 +1,123 @@
+self.writeCode()
+self.queue.clear()
+
+self.writer.writeCall(name+"."+name2, str(functions))
+self.writer.writePop("temp", str(0))
+
+
+
+if(len(exp[0])>1):
+                if(exp[1:].isdigit()):
+               
+                    self.writer.writePush("constant",exp[0])
+
+
+
+
+
+___list+="<identifier>"+self.tokens.keyWord()+"</identifier> \n"#another error, really amazing that this works at all
+        name = self.tokens.identifier()
+        list+=("<Eleven>"+ " Name: " + name + " Catagory: " 
+               + self.classLevelTable.kindOf(name)+ " Index: " + self.classLevelTable.indexOf(name) + 
+               " Usage: " + "used " +"</Eleven> \n") 
+        self.tokens.advance()
+        if self.tokens.symbol() == "(":
+            list+="<symbol>"+self.tokens.symbol()+"</symbol> \n"
+            self.tokens.advance()
+            list+=self.compileExpressionList()
+            self.writeCode()
+            
+            self.tokens.advance()
+
+            list+="<symbol>"+")"+"</symbol>"+" \n"
+            
+            list+="<symbol>"+self.tokens.symbol()+"</symbol> \n</doStatement> \n"
+            self.writer.writeCall(name, str(functions))
+            self.writer.writePop("temp", str(0))
+            return list
+        else:
+           
+            list+="<symbol>"+self.tokens.symbol()+"</symbol> \n"
+            self.tokens.advance()
+            list+="<identifier>"+self.tokens.keyWord()+"</identifier> \n"
+            name2=self.tokens.identifier()
+            self.tokens.advance()
+            list+="<symbol>"+self.tokens.symbol()+"</symbol> \n"
+            self.tokens.advance()
+           
+            list+=self.compileExpressionList()
+            self.writeCode()
+            self.queue.clear()
+            list+="<symbol>"+self.tokens.symbol()+"</symbol> \n"
+            self.tokens.advance()
+            list+="<symbol>"+self.tokens.symbol()+"</symbol> \n </doStatement> \n"
+
+
+
+             nArgs = 0
+            cargs = 0
+            i=True
+            n=4
+            nArgs=0
+            z=[]
+    
+            while(exp[n]!=")"):
+                c = False
+                while(not exp[n] in[",",")"]):
+                c=True
+                z.append(exp[n] )
+                n+=1
+                if(exp[n]!=")"):
+                    n+=1
+
+                self.alg(z)
+                z=[]
+                if (c==True):
+                    nArgs+=1
+                
+            self.writer.writeCall(exp[0]+exp[1]+exp[2], nArgs)
+    
+    
+            if(len(exp)> n+2):
+            
+                self.alg(exp[n+2:])
+
+
+
+
+
+                 elif(exp[0] == "("): #'2', '*', '3'
+            print("CRAP CODE")
+            exp.pop(0)
+            x = 0
+            for i in range(0,len(exp)):
+                if exp[i] == ")":
+                    exp.pop(i)
+                    x=i
+                    i=1000000
+                    break
+            if(len(exp) <= x): #i==3
+            
+                self.alg(exp[0:x])
+            elif(exp[x] in ["*","/","+","-","=",">","<","&","|","&amp;","&lt;","&gt;"]):
+                a=exp[0:x-1]
+                b=exp[x+1:]
+                c=exp[x]
+                self.alg(a)
+                
+                self.alg(b)
+                
+                self.writer.writeArithmetic(c)
+            else:
+                self.alg(exp[0:x-1])
+
+
+
+
+
+ list+="<symbol>"+self.tokens.symbol()+"</symbol> \n"
+            self.tokens.advance()
+            list+=self.compileExpression()
+            self.writeCode()
+            self.queue.clear()
+            list+="<symbol>"+self.tokens.symbol()+"</symbol> \n"

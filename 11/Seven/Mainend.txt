@@ -1,0 +1,30 @@
+<class> 
+<keyword> class </keyword> 
+<identifier>Main</identifier> 
+<Eleven> Name: Main Catagory: class Index: 0 Usage: Declared </Eleven> 
+<symbol>{</symbol> 
+<subroutineDec> 
+<keyword>function</keyword>
+<keyword>void</keyword>
+<Eleven> Name: void Catagory: NA1 Index: 0 Usage: Declared </Eleven> 
+<identifier>main</identifier>
+<Eleven> Name: main Catagory:  Index: YO Usage: Declared </Eleven> 
+<symbol>(</symbol>
+<parameterList> 
+</parameterList>
+<symbol>)</symbol>
+<subroutineBody> 
+<symbol> { </symbol> 
+<statements>
+<doStatement> 
+ <keyword>do</keyword> 
+<returnStatement> 
+ <keyword>return</keyword> 
+<symbol>;</symbol> 
+ </returnStatement> 
+</statements>
+<symbol>}</symbol> 
+</subroutineBody> 
+</subroutineDec>
+<symbol>}</symbol> 
+</class> 
