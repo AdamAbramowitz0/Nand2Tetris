@@ -1,0 +1,20 @@
+push constant 31
+push constant 53
+lt
+push contant 53
+push constant 31
+lt
+
+push constant 31
+push constant 53
+gt
+push contant 53
+push constant 31
+gt
+
+push constant 31
+push constant 31
+eq
+push contant 53
+push constant 31
+eq
